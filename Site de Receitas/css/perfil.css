@@ -1,0 +1,36 @@
+.profilePicture{
+    width:150px;
+}
+
+.profileResume{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#a13604;
+}
+.user{
+    width:30%;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    border: 1px #a13604 solid;
+    margin: 5px;
+
+}
+.userName{
+text-align: center
+}
+
+.userConfig{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: bold
+}
+.userOpt{
+    text-align: center;
+    width: 150px;
+    padding: 3px;
+    border: 2px #a13604 solid;
+    border-radius: 3px;
+}

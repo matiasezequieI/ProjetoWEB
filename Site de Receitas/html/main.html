@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nem tudo tão gostoso</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <header class="panel">
+        <section class="menuSearch">
+            <figure class="logo">
+                <a href="main.html">
+                    <img src="../imgs/comidnhas.png" class="logo">
+                </a>
+            </figure>
+            <input type="text" class="inputSearch" />
+            <button class="btnSearch">
+                <img src="../imgs/whiteSearch.png" width="21px">
+            </button>
+        </section>
+        <section class="sectionUser">
+            <figure>
+                <a href="perfil.html">
+                    <img src="../imgs/userBig.png" class="user">
+                </a>
+            </figure>
+        </section>
+    </header>
+    <main id="bodyCont">
+    </main>
+
+    <footer class="panel" style="margin-top: 25px">
+        <span class="cpr">&copy; Mauricio e Matias</span>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    (function carrega() {
+        var rec = "";
+        for (i = 0; i < 16; i++) {
+            rec += `
+            <article class="receitas">
+                <figure>
+                    <img src="../imgs/frango.jpg" alt="" class="receitaImg">
+                </figure>
+                <span class="tituloReceita">
+                    <a href="receitas.html">Titulo receita</a>
+                </span>
+            </article>`;
+        }
+        document.getElementById("bodyCont").innerHTML = rec;
+    })();
+</script>
