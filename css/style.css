@@ -1,0 +1,134 @@
+input{
+    height: 28px;
+    padding: 0;
+}
+
+a:link, a:visited{
+    color:#a13604;
+    text-decoration: none;
+}
+
+li{
+    color:#a13604;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.panel{
+    vertical-align: middle;
+    width:100%;
+    background-color: #ffae00
+}
+
+.logo{    
+    vertical-align: middle;
+    display: inline-block;
+    width: 400px;
+}
+
+.inputSearch{
+width: 400px
+}
+
+.btnSearch{
+    background-color: #a13604;
+    border: none;
+    padding: 2px;
+    width: 35px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.menuSearch{
+    width:80%;
+    display: inline-block;
+}
+
+.sectionUser{
+    vertical-align: middle;
+    text-align: right;
+    width:18%;
+    display: inline-block;
+}
+
+#bodyCont{
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 80%;
+    display: inline-block;
+    background-color: #ffae00
+}
+
+.receitas{    
+    margin:10px;
+    width: 20%;
+    display: inline-block;
+    border: 1px solid #a13604;
+    text-align: center
+
+}
+
+.receitaImg{
+    width:100%;
+
+}
+.tituloReceita{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder; 
+    color:#a13604;
+}
+
+.cpr{
+    font-size: 10px;
+    color:#a13604;
+    text-align: center;
+}
+
+.panelFooter{
+    margin-top: 25px; 
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width:60px){
+    .panel{
+        width: 100%;
+    }
+    .sectionUser{
+        width: 100%;    
+    }
+    .menuSearch{
+        width: 100%;   
+     }
+    .btnSearch{
+        width: 100%;    
+    }
+    .logo{
+        width: 100%;
+    }
+    .panelFooter{
+        width: 100%;
+    }
+    .cpr{
+        width: 100%;
+    }
+    .tituloReceita{
+        width: 100%;
+    }
+    .receitaImg{
+        width: 100%;
+    }
+    .receitas{
+        width: 100%;
+    }
+    #bodyCont{
+        width: 100%;
+    }
+    .inputSearch{
+        width: 100%;
+    }
+    li{
+        width: 100%;
+    }
+}
